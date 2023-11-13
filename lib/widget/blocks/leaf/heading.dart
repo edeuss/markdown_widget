@@ -54,7 +54,7 @@ class _Divider extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
         margin: EdgeInsets.only(top: divider.space),
-        child: Divider(height: divider.height, color: divider.color));
+        child: Divider(height: divider.height, color: Theme.of(context).dividerTheme.color));
   }
 }
 
